@@ -1,0 +1,40 @@
+White: F4F2F3 / Concrete
+ * Background
+ * Text Color
+
+Primary: 46EABD / Turquoise
+ * Call attention through contrast
+
+Secondary: 638C9C / Hoki
+ * Use liberally
+
+Accent: 7A8282 / Sirocco
+
+Dark: 283653 / Rhino
+ * Text
+ * Background
+
+Dark:
+ > Background: Dark
+ > Heading: Accent
+ > Text: White
+
+Light:
+ > Background: White 
+ > Headings: Secondary
+ > Text: Black
+ > Comments/links: Accent
+  
+Accent:
+ > Background: Accent
+ > Headings/Text: White
+
+Navbar:
+ > Background: Secondary
+ > Text: White
+
+Dropdown:
+ > Background: Accent
+ > Text: White
+
+
