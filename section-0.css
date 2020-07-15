@@ -59,12 +59,20 @@ body.anti-aug .presentation-el {
   --aug-inset-bg: var(--primary);
 }
 body.background-haulted .header-presentation {
-  --aug-inset-bg: linear-gradient(to bottom, #ff000033, rgba(1, 0, 0, 0.8), #ff000033), rgba(1, 0, 0, 0.8);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #FFFFFF
 }
 
 .header-presentation {
-  min-height: 333px;
-  background: #283653;
+  background: linear-gradient(to bottom right, rgba(40, 54, 83, 0.9), transparent),
+              repeating-radial-gradient(rgba(235, 220, 192, 0.075), rgba(235, 220, 192, 0.035) 1px, transparent 4px, transparent 2px),
+              #283653;
+  background-size: auto auto, 40px 40px, 80px 80px, 1600px 1600px, auto auto;
+
+  min-height: 233px;
   --aug-tl: 30px;
   --aug-tl-width: 170px;
   --aug-bl: 20px;
@@ -72,7 +80,7 @@ body.background-haulted .header-presentation {
   --aug-br: 20px;
   --aug-br-width: 40%;
   --aug-border: 1px;
-  --aug-border-bg: #46EABD;
+  --aug-border-bg: var(--primary);
   --aug-inset: 0px;
   perspective: 500px;
 }
@@ -82,12 +90,12 @@ body.background-haulted .header-presentation {
   box-sizing: border-box;
   padding: 70px;
   position: absolute;
-  top: 170px;
+  top: 120px;
   left: 50%;
   transform: translate(-50%, -50%) translateZ(-250px);
   text-align: center;
-  height:               var( --pjAnim-height,         350px   );
-  width:                var( --pjAnim-width,          550px   );
+  height:               var( --pjAnim-height,         250px   );
+  width:                var( --pjAnim-width,          400px   );
   --aug-inset:          var( --pjAnim-inset,          7px     );
   --aug-inset-bg:       var( --pjAnim-inset-bg,       #638C9C );
   --aug-border:         var( --pjAnim-border,         5px     );
@@ -141,8 +149,8 @@ body.background-haulted .header-presentation {
   position: absolute;
   bottom: 45px;
   right: 25px;
-  height: 150px;
-  width: 300px;
+  height: 130px;
+  width: 200px;
   transform-origin: 100% 50%;
   transform: rotateY(-5deg);
 }

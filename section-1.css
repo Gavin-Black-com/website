@@ -81,11 +81,11 @@
   padding: 40px;
   margin-top: 30px;
   margin-left: 50px;
-  color: #c89373; /* #ebdcc0; */
+  color: #ff9373; /* #ebdcc0; */
   --aug-inset: 10px;
   --aug-inset-bg: #030203;
   --aug-border: 1px;
-  --aug-border-bg: #c89373;
+  --aug-border-bg: #ff0073;
   --aug-bl: 75px;
   --aug-br: 5px;
   --aug-r-height: 210px;
@@ -130,12 +130,11 @@
 [data-highlight-info="info-background"] .code-left .info-background,
 .code-css span:hover,
 .code-html span:hover {
-  background: #ebdcc0;
-  color: #030203;
+  background: #46EABD;
+  color: #283653;
 }
 .code-css::before,
 .code-html::before {
-  content: "HTML";
   position: relative;
   left: -4px;
   display: block;
@@ -143,13 +142,13 @@
   box-sizing: border-box;
   padding: 2px;
   padding-left: 4px;
-  background: #ebdcc0;
-  color: #030203;
+  background: #638C9C;
+  color: #283653;
   font-weight: bold;
   margin-bottom: 8px;
 }
 .code-css::before {
-  content: "CSS";
+  content: "nav_menu";
 }
 
 .highlighted-info {
@@ -158,7 +157,7 @@
   top: 140px;
   width: 12.5vw;
   height: 250px;
-  color: #ebdcc0;
+  color: #ff0000;
   font-family: monospace;
   padding: 15px;
   font-size: 1.5vw;
