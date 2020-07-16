@@ -1,14 +1,15 @@
-White: F4F2F3 / Concrete
+White: F4F2F3 / Concrete / rgb(244, 242, 243)
  * Background
  * Text Color
 
-Primary: 46EABD / Turquoise
+Primary: 46EABD / Turquoise / rgb(70, 234, 189)
  * Call attention through contrast
 
-Secondary: 638C9C / Hoki
+Secondary: 638C9C / Hoki / rgb(99, 140, 156)
  * Use liberally
 
-Accent: 7A8282 / Sirocco
+Accent: 7A8282 / Sirocco / rgb(122, 130, 130)
+ * 
 
 Dark: 283653 / Rhino / rgb(40, 54, 83)
  * Text
